@@ -1,6 +1,5 @@
 # rose2.py
-# Print an ASCII rose using run-length encoding (RLE).
-# Matrix is stored in 10-tuple-wide rows, including ('\n',1) tokens.
+# https://https://github.com/pstingley/rose
 
 petals_and_stem = [
 [(' ', 11), ('.', 1), ('\n', 1), (' ', 5), ('.', 3), (' ', 2), (':', 1), ('`', 2), ('.', 2), ("'", 1)],
@@ -39,3 +38,4 @@ def rose(petals_and_stem):
 
 if __name__ == "__main__":
     print(rose(petals_and_stem))
+
